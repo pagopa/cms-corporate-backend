@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_context_title_text_links",
+  "info": {
+    "displayName": "TitleTextLink",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "label": "Press releases",
+  "pattern": "/[locale]/media/[title]",
+  "code": "press_releases",
+  "contenttype": "api::press-release.press-release",
+  "languages": []
+}

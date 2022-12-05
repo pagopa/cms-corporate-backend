@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::block-context.block-conf",
+  "value": {
+    "uid": "block-context.block-conf",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "BlockWidth": {
+        "edit": {
+          "label": "BlockWidth",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BlockWidth",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "BlockPosition": {
+        "edit": {
+          "label": "BlockPosition",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BlockPosition",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "BackgroundGraphic": {
+        "edit": {
+          "label": "BackgroundGraphic",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BackgroundGraphic",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "BlockWidth",
+        "BlockPosition",
+        "BackgroundGraphic"
+      ],
+      "edit": [
+        [
+          {
+            "name": "BlockWidth",
+            "size": 6
+          },
+          {
+            "name": "BlockPosition",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "BackgroundGraphic",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

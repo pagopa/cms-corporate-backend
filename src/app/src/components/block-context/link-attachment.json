@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_context_link_attachments",
+  "info": {
+    "displayName": "LinkAttachment",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "attachment": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

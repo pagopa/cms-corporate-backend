@@ -1,0 +1,7 @@
+{
+  "label": "Projects",
+  "pattern": "/[locale]/prodotti-e-servizi/[title]",
+  "code": "projects",
+  "contenttype": "api::project.project",
+  "languages": []
+}

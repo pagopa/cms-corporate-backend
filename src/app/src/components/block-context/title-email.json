@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_context_title_emails",
+  "info": {
+    "displayName": "TitleEmail",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_block_university_accordions",
+  "info": {
+    "displayName": "Block University Accordion",
+    "icon": "hospital",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

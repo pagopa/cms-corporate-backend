@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_context_jobs_list_commons",
+  "info": {
+    "displayName": "JobsList Commons",
+    "icon": "hammer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "titleLinks": {
+      "type": "string"
+    }
+  }
+}

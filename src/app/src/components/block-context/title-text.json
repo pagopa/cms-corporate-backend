@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_context_title_texts",
+  "info": {
+    "displayName": "TitleText",
+    "icon": "file-word"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

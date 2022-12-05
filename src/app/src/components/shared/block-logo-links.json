@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_block_logo_links",
+  "info": {
+    "displayName": "Block Logo links",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logoLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.link-attachment"
+    }
+  }
+}

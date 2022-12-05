@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_context_block_confs",
+  "info": {
+    "displayName": "BlockConf",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "BlockWidth": {
+      "type": "enumeration",
+      "enum": [
+        "Standard",
+        "Wide"
+      ]
+    },
+    "BlockPosition": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Center",
+        "Right"
+      ]
+    },
+    "BackgroundGraphic": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

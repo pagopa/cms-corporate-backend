@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_block_intros",
+  "info": {
+    "displayName": "Block Intro",
+    "icon": "plane-departure",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "eyelet": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "useFeaturedImage": {
+      "type": "boolean"
+    },
+    "isEventLanding": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "introMenu": {
+      "type": "string"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

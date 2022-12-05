@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_block_projects_carousels",
+  "info": {
+    "displayName": "Block Projects carousel",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

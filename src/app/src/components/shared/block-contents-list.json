@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_block_contents_lists",
+  "info": {
+    "displayName": "Block Contents list",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": ["Stuggered", "Inline"]
+    },
+    "background": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.content-items"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

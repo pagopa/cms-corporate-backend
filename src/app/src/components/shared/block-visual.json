@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_block_visuals",
+  "info": {
+    "displayName": "Block Visual",
+    "icon": "inbox"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": ["Wide", "Left", "Right"]
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

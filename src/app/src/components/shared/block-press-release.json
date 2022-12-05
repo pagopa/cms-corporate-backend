@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_block_press_releases",
+  "info": {
+    "displayName": "Block Press release",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_context_accordion_items",
+  "info": {
+    "displayName": "AccordionItem",
+    "icon": "stream"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "attachments": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

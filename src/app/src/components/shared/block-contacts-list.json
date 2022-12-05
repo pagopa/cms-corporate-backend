@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_block_contacts_lists",
+  "info": {
+    "displayName": "Block Contacts list",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.title-email"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

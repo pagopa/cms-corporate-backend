@@ -1,0 +1,35 @@
+{
+  "name": "cms-corporate-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS for corporate website Pagopa.it",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "cs": "config-sync"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi-community/strapi-plugin-url-alias": "^1.0.0-alpha.6",
+    "@strapi/plugin-i18n": "4.5.2",
+    "@strapi/plugin-users-permissions": "4.5.2",
+    "@strapi/strapi": "4.5.2",
+    "dotenv": "^16.0.3",
+    "pg": "8.6.0",
+    "strapi-plugin-config-sync": "^1.0.4",
+    "strapi-plugin-navigation": "^2.2.2"
+  },
+  "author": {
+    "name": "PagoPA S.p.A."
+  },
+  "strapi": {
+    "uuid": "240af3c4-8c34-40f4-a88f-406e24d57d98"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "EUPL"
+}

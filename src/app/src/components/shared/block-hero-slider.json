@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_block_hero_sliders",
+  "info": {
+    "displayName": "Block Hero slider"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.content-items"
+    }
+  }
+}

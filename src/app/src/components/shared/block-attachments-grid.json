@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_block_attachments_grids",
+  "info": {
+    "displayName": "Block Attachments grid",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.icon-attachment-button"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

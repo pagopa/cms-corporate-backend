@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_shared_block_visual_texts",
+  "info": {
+    "displayName": "Block visual + text",
+    "icon": "theater-masks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "eyelet": {
+      "type": "string"
+    },
+    "youtubeVideo": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "visualWidth": {
+      "type": "enumeration",
+      "enum": ["Small", "Half", "Big", "Full"]
+    },
+    "reverseOrder": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

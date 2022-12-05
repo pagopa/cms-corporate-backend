@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_block_accordions",
+  "info": {
+    "displayName": "Block Accordion",
+    "description": "Blocco utile alla renderizzazione di un accordion"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.accordion-item"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_block_cta_grids",
+  "info": {
+    "displayName": "Block CTA grid",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.title-text-link"
+    }
+  }
+}

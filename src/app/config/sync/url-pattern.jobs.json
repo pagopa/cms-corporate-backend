@@ -1,0 +1,7 @@
+{
+  "label": "Jobs",
+  "pattern": "/[locale]/lavora-con-noi/[title]",
+  "code": "jobs",
+  "contenttype": "api::jobposition.jobposition",
+  "languages": []
+}

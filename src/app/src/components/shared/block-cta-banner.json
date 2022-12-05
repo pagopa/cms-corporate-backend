@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_block_cta_banners",
+  "info": {
+    "displayName": "Block CTA Banner",
+    "icon": "vr-cardboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_block_text_video_options",
+  "info": {
+    "displayName": "Block Text Video option",
+    "icon": "play-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "eyelet": {
+      "type": "string"
+    },
+    "isCentered": {
+      "type": "boolean"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "videoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_block_jobs_listings",
+  "info": {
+    "displayName": "Block Jobs listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "eyelet": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "commons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.jobs-list-commons"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.link-attachment"
+    }
+  }
+}

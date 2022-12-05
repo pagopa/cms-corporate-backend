@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_block_news_and_events",
+  "info": {
+    "displayName": "Block news and events",
+    "icon": "globe-asia"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}

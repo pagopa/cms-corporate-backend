@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_block_media_highlights",
+  "info": {
+    "displayName": "Block Media highlights",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "blockConf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.block-conf"
+    }
+  }
+}
