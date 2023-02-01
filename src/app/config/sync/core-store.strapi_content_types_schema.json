@@ -4325,6 +4325,23 @@
           "targetField": "title",
           "required": true
         },
+        "body": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "richtext",
+          "required": true
+        },
+        "eyelet": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "string"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -4439,6 +4456,23 @@
             "type": "uid",
             "targetField": "title",
             "required": true
+          },
+          "body": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "richtext",
+            "required": true
+          },
+          "eyelet": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "string"
           }
         },
         "kind": "collectionType"

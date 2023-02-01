@@ -612,10 +612,11 @@
       "subject": "api::press-release.press-release",
       "properties": {
         "fields": [
-          "bannerNewsletter",
+          "title",
           "featuredImage",
+          "bannerNewsletter",
           "slug",
-          "title"
+          "body"
         ],
         "locales": [
           "en",
@@ -644,10 +645,11 @@
       "subject": "api::press-release.press-release",
       "properties": {
         "fields": [
-          "bannerNewsletter",
+          "title",
           "featuredImage",
+          "bannerNewsletter",
           "slug",
-          "title"
+          "body"
         ],
         "locales": [
           "en",
@@ -663,10 +665,11 @@
       "subject": "api::press-release.press-release",
       "properties": {
         "fields": [
-          "bannerNewsletter",
+          "title",
           "featuredImage",
+          "bannerNewsletter",
           "slug",
-          "title"
+          "body"
         ],
         "locales": [
           "en",

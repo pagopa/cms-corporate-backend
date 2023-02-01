@@ -636,7 +636,9 @@
           "title",
           "featuredImage",
           "bannerNewsletter",
-          "slug"
+          "slug",
+          "body",
+          "eyelet"
         ],
         "locales": [
           "en",
@@ -675,7 +677,9 @@
           "title",
           "featuredImage",
           "bannerNewsletter",
-          "slug"
+          "slug",
+          "body",
+          "eyelet"
         ],
         "locales": [
           "en",
@@ -692,7 +696,9 @@
           "title",
           "featuredImage",
           "bannerNewsletter",
-          "slug"
+          "slug",
+          "body",
+          "eyelet"
         ],
         "locales": [
           "en",
