@@ -1,7 +1,19 @@
 {
   "key": "plugin_navigation_config",
   "value": {
-    "additionalFields": [],
+    "additionalFields": [
+      {
+        "name": "highlight",
+        "label": "Highlight",
+        "type": "boolean",
+        "required": false,
+        "multi": false,
+        "options": [],
+        "enabled": true
+      }
+    ],
+    "allowedLevels": 2,
+    "cascadeMenuAttached": true,
     "contentTypes": [
       "api::page.page"
     ],
@@ -13,17 +25,14 @@
       ]
     },
     "contentTypesPopulate": {},
-    "allowedLevels": 2,
+    "i18nEnabled": true,
+    "pathDefaultFields": {},
+    "pruneObsoleteI18nNavigations": false,
     "gql": {
       "navigationItemRelated": [
         "Page"
       ]
-    },
-    "i18nEnabled": true,
-    "slugify": {},
-    "pruneObsoleteI18nNavigations": false,
-    "pathDefaultFields": {},
-    "cascadeMenuAttached": true
+    }
   },
   "type": "object",
   "environment": null,
