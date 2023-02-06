@@ -105,6 +105,14 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "eventVenue": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
