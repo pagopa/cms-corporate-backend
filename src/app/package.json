@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi-community/strapi-plugin-url-alias": "^1.0.0-alpha.6",
     "@strapi/plugin-i18n": "4.5.2",
     "@strapi/plugin-users-permissions": "4.5.2",
@@ -31,5 +32,6 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
+  "workspaces": ["./src/plugins/strapi-plugin-ckeditor"],
   "license": "EUPL"
 }
