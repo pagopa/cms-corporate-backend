@@ -176,6 +176,20 @@
           "sortable": true
         }
       },
+      "eventVenue": {
+        "edit": {
+          "label": "eventVenue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "eventVenue",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -268,6 +282,10 @@
         [
           {
             "name": "slug",
+            "size": 6
+          },
+          {
+            "name": "eventVenue",
             "size": 6
           }
         ]

@@ -18,7 +18,8 @@
           "startTime",
           "endTime",
           "eyeletCTA",
-          "slug"
+          "slug",
+          "eventVenue"
         ],
         "locales": [
           "en",
@@ -64,7 +65,8 @@
           "startTime",
           "endTime",
           "eyeletCTA",
-          "slug"
+          "slug",
+          "eventVenue"
         ],
         "locales": [
           "en",
@@ -88,7 +90,8 @@
           "startTime",
           "endTime",
           "eyeletCTA",
-          "slug"
+          "slug",
+          "eventVenue"
         ],
         "locales": [
           "en",
