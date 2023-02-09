@@ -401,8 +401,8 @@
           "eyeletCTA",
           "featuredImage",
           "bannerNewsletter",
-          "body",
-          "slug"
+          "slug",
+          "body"
         ],
         "locales": [
           "en",
@@ -443,8 +443,8 @@
           "eyeletCTA",
           "featuredImage",
           "bannerNewsletter",
-          "body",
-          "slug"
+          "slug",
+          "body"
         ],
         "locales": [
           "en",
@@ -463,8 +463,8 @@
           "eyeletCTA",
           "featuredImage",
           "bannerNewsletter",
-          "body",
-          "slug"
+          "slug",
+          "body"
         ],
         "locales": [
           "en",
