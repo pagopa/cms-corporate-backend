@@ -2,11 +2,12 @@
   "collectionName": "components_shared_block_map_boxes",
   "info": {
     "displayName": "Block Map box",
-    "icon": "map-marked"
+    "icon": "map-marked",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "items": {
+    "mapBoxItems": {
       "type": "component",
       "repeatable": true,
       "component": "block-context.title-text"

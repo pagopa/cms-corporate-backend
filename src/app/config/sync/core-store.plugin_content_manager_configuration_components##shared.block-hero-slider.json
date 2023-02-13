@@ -20,16 +20,16 @@
           "sortable": false
         }
       },
-      "items": {
+      "heroSliderItems": {
         "edit": {
-          "label": "items",
+          "label": "heroSliderItems",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "items",
+          "label": "heroSliderItems",
           "searchable": false,
           "sortable": false
         }
@@ -38,12 +38,12 @@
     "layouts": {
       "list": [
         "id",
-        "items"
+        "heroSliderItems"
       ],
       "edit": [
         [
           {
-            "name": "items",
+            "name": "heroSliderItems",
             "size": 12
           }
         ]

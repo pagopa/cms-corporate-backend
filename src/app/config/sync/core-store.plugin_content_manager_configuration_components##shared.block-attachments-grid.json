@@ -34,16 +34,16 @@
           "sortable": true
         }
       },
-      "items": {
+      "attachmentsGridItems": {
         "edit": {
-          "label": "items",
+          "label": "attachmentsGridItems",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "items",
+          "label": "attachmentsGridItems",
           "searchable": false,
           "sortable": false
         }
@@ -67,8 +67,8 @@
       "list": [
         "id",
         "title",
-        "items",
-        "blockConf"
+        "blockConf",
+        "attachmentsGridItems"
       ],
       "edit": [
         [
@@ -79,13 +79,13 @@
         ],
         [
           {
-            "name": "items",
+            "name": "blockConf",
             "size": 12
           }
         ],
         [
           {
-            "name": "blockConf",
+            "name": "attachmentsGridItems",
             "size": 12
           }
         ]

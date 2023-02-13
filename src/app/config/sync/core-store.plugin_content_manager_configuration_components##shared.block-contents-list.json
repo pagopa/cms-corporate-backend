@@ -62,16 +62,16 @@
           "sortable": false
         }
       },
-      "items": {
+      "contentsItems": {
         "edit": {
-          "label": "items",
+          "label": "contentsItems",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "items",
+          "label": "contentsItems",
           "searchable": false,
           "sortable": false
         }
@@ -117,13 +117,13 @@
         ],
         [
           {
-            "name": "items",
+            "name": "blockConf",
             "size": 12
           }
         ],
         [
           {
-            "name": "blockConf",
+            "name": "contentsItems",
             "size": 12
           }
         ]

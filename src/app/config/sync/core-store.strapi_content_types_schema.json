@@ -2049,7 +2049,8 @@
           "type": "relation",
           "relation": "oneToMany",
           "target": "plugin::navigation.navigation-item",
-          "configurable": false
+          "configurable": false,
+          "mappedBy": "master"
         },
         "localizations": {
           "type": "relation",
@@ -2128,7 +2129,8 @@
             "type": "relation",
             "relation": "oneToMany",
             "target": "plugin::navigation.navigation-item",
-            "configurable": false
+            "configurable": false,
+            "mappedBy": "master"
           },
           "localizations": {
             "type": "relation",
@@ -2238,7 +2240,8 @@
           "type": "relation",
           "relation": "manyToOne",
           "target": "plugin::navigation.navigation",
-          "configurable": false
+          "configurable": false,
+          "inversedBy": "items"
         },
         "audience": {
           "type": "relation",
@@ -2368,7 +2371,8 @@
             "type": "relation",
             "relation": "manyToOne",
             "target": "plugin::navigation.navigation",
-            "configurable": false
+            "configurable": false,
+            "inversedBy": "items"
           },
           "audience": {
             "type": "relation",
@@ -4608,6 +4612,36 @@
           "targetField": "title",
           "required": true
         },
+        "blocks": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "dynamiczone",
+          "components": [
+            "shared.block-accordion",
+            "shared.block-attachments-grid",
+            "shared.block-contacts-list",
+            "shared.block-contents-list",
+            "shared.block-cta-banner",
+            "shared.block-cta-grid",
+            "shared.block-hero-slider",
+            "shared.block-intro",
+            "shared.block-jobs-listing",
+            "shared.block-list-attachments",
+            "shared.block-logo-links",
+            "shared.block-map-box",
+            "shared.block-media-highlights",
+            "shared.block-news-and-events",
+            "shared.block-press-release",
+            "shared.block-projects-carousel",
+            "shared.block-text-video-option",
+            "shared.block-university-accordion",
+            "shared.block-visual-text",
+            "shared.block-visual"
+          ]
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -4759,6 +4793,36 @@
             "type": "uid",
             "targetField": "title",
             "required": true
+          },
+          "blocks": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "dynamiczone",
+            "components": [
+              "shared.block-accordion",
+              "shared.block-attachments-grid",
+              "shared.block-contacts-list",
+              "shared.block-contents-list",
+              "shared.block-cta-banner",
+              "shared.block-cta-grid",
+              "shared.block-hero-slider",
+              "shared.block-intro",
+              "shared.block-jobs-listing",
+              "shared.block-list-attachments",
+              "shared.block-logo-links",
+              "shared.block-map-box",
+              "shared.block-media-highlights",
+              "shared.block-news-and-events",
+              "shared.block-press-release",
+              "shared.block-projects-carousel",
+              "shared.block-text-video-option",
+              "shared.block-university-accordion",
+              "shared.block-visual-text",
+              "shared.block-visual"
+            ]
           }
         },
         "kind": "collectionType"

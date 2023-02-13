@@ -12,7 +12,7 @@
       "repeatable": false,
       "component": "block-context.block-conf"
     },
-    "items": {
+    "ctaGridItems": {
       "type": "component",
       "repeatable": true,
       "component": "block-context.title-text-link"
