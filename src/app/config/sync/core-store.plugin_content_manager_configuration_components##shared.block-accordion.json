@@ -34,16 +34,16 @@
           "sortable": true
         }
       },
-      "items": {
+      "accordionItems": {
         "edit": {
-          "label": "items",
+          "label": "accordionItems",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "items",
+          "label": "accordionItems",
           "searchable": false,
           "sortable": false
         }
@@ -67,8 +67,8 @@
       "list": [
         "id",
         "title",
-        "items",
-        "blockConf"
+        "blockConf",
+        "accordionItems"
       ],
       "edit": [
         [
@@ -79,13 +79,13 @@
         ],
         [
           {
-            "name": "items",
+            "name": "blockConf",
             "size": 12
           }
         ],
         [
           {
-            "name": "blockConf",
+            "name": "accordionItems",
             "size": 12
           }
         ]

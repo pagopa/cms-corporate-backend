@@ -132,6 +132,20 @@
           "sortable": true
         }
       },
+      "blocks": {
+        "edit": {
+          "label": "blocks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "blocks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -207,6 +221,12 @@
           {
             "name": "slug",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "blocks",
+            "size": 12
           }
         ]
       ]

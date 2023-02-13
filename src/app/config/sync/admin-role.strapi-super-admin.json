@@ -722,7 +722,8 @@
           "carouselAbstract",
           "carouselImage",
           "carouselCtaLabel",
-          "slug"
+          "slug",
+          "blocks"
         ],
         "locales": [
           "en",
@@ -765,7 +766,8 @@
           "carouselAbstract",
           "carouselImage",
           "carouselCtaLabel",
-          "slug"
+          "slug",
+          "blocks"
         ],
         "locales": [
           "en",
@@ -786,7 +788,8 @@
           "carouselAbstract",
           "carouselImage",
           "carouselCtaLabel",
-          "slug"
+          "slug",
+          "blocks"
         ],
         "locales": [
           "en",

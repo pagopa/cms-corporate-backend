@@ -10,7 +10,7 @@
     "title": {
       "type": "string"
     },
-    "items": {
+    "attachmentsGridItems": {
       "type": "component",
       "repeatable": true,
       "component": "block-context.icon-attachment-button"

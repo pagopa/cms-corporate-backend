@@ -20,16 +20,16 @@
           "sortable": false
         }
       },
-      "items": {
+      "mapBoxItems": {
         "edit": {
-          "label": "items",
+          "label": "mapBoxItems",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "items",
+          "label": "mapBoxItems",
           "searchable": false,
           "sortable": false
         }
@@ -38,12 +38,12 @@
     "layouts": {
       "list": [
         "id",
-        "items"
+        "mapBoxItems"
       ],
       "edit": [
         [
           {
-            "name": "items",
+            "name": "mapBoxItems",
             "size": 12
           }
         ]

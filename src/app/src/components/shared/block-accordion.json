@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "items": {
+    "accordionItems": {
       "type": "component",
       "repeatable": true,
       "component": "block-context.accordion-item"
