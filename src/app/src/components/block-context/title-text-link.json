@@ -2,7 +2,8 @@
   "collectionName": "components_block_context_title_text_links",
   "info": {
     "displayName": "TitleTextLink",
-    "icon": "braille"
+    "icon": "braille",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
       "type": "richtext"
     },
     "link": {
+      "type": "string"
+    },
+    "linkLabel": {
       "type": "string"
     }
   }

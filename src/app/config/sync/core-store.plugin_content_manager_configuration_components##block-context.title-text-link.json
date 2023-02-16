@@ -61,13 +61,28 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "linkLabel": {
+        "edit": {
+          "label": "linkLabel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "linkLabel",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
       "list": [
         "id",
         "title",
-        "link"
+        "link",
+        "linkLabel"
       ],
       "edit": [
         [
@@ -85,6 +100,10 @@
         [
           {
             "name": "link",
+            "size": 6
+          },
+          {
+            "name": "linkLabel",
             "size": 6
           }
         ]

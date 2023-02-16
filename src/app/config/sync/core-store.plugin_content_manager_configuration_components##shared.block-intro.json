@@ -104,20 +104,6 @@
           "sortable": false
         }
       },
-      "introMenu": {
-        "edit": {
-          "label": "introMenu",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "introMenu",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "blockConf": {
         "edit": {
           "label": "blockConf",
@@ -128,6 +114,20 @@
         },
         "list": {
           "label": "blockConf",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "introMenu": {
+        "edit": {
+          "label": "introMenu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "introMenu",
           "searchable": false,
           "sortable": false
         }
@@ -171,15 +171,17 @@
           {
             "name": "image",
             "size": 6
-          },
-          {
-            "name": "introMenu",
-            "size": 6
           }
         ],
         [
           {
             "name": "blockConf",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "introMenu",
             "size": 12
           }
         ]

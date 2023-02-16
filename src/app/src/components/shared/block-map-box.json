@@ -10,7 +10,7 @@
     "mapBoxItems": {
       "type": "component",
       "repeatable": true,
-      "component": "block-context.title-text"
+      "component": "block-context.title-text-link"
     }
   }
 }

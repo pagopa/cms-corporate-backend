@@ -13,9 +13,6 @@
     "eyelet": {
       "type": "string"
     },
-    "body": {
-      "type": "richtext"
-    },
     "useFeaturedImage": {
       "type": "boolean"
     },
@@ -26,15 +23,27 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
-    },
-    "introMenu": {
-      "type": "string"
+      "allowedTypes": [
+        "images"
+      ]
     },
     "blockConf": {
       "type": "component",
       "repeatable": false,
       "component": "block-context.block-conf"
+    },
+    "introMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block-context.title-text-link"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "rich",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
