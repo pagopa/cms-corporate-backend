@@ -61,6 +61,20 @@
           "searchable": false,
           "sortable": false
         }
+      },
+      "backgroundAnimation": {
+        "edit": {
+          "label": "backgroundAnimation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "backgroundAnimation",
+          "searchable": false,
+          "sortable": false
+        }
       }
     },
     "layouts": {
@@ -86,6 +100,12 @@
         [
           {
             "name": "accordionItems",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundAnimation",
             "size": 12
           }
         ]

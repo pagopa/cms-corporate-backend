@@ -289,12 +289,14 @@
           "blocks.image",
           "blocks.blockConf.BlockWidth",
           "blocks.blockConf.BlockPosition",
-          "blocks.blockConf.BackgroundGraphic",
           "blocks.introMenu.title",
           "blocks.introMenu.body",
           "blocks.introMenu.link",
           "blocks.introMenu.linkLabel",
           "blocks.body",
+          "blocks.backgroundAnimation.size",
+          "blocks.backgroundAnimation.left",
+          "blocks.backgroundAnimation.top",
           "slug"
         ],
         "locales": [
@@ -348,12 +350,14 @@
           "blocks.image",
           "blocks.blockConf.BlockWidth",
           "blocks.blockConf.BlockPosition",
-          "blocks.blockConf.BackgroundGraphic",
           "blocks.introMenu.title",
           "blocks.introMenu.body",
           "blocks.introMenu.link",
           "blocks.introMenu.linkLabel",
           "blocks.body",
+          "blocks.backgroundAnimation.size",
+          "blocks.backgroundAnimation.left",
+          "blocks.backgroundAnimation.top",
           "slug"
         ],
         "locales": [
@@ -385,12 +389,14 @@
           "blocks.image",
           "blocks.blockConf.BlockWidth",
           "blocks.blockConf.BlockPosition",
-          "blocks.blockConf.BackgroundGraphic",
           "blocks.introMenu.title",
           "blocks.introMenu.body",
           "blocks.introMenu.link",
           "blocks.introMenu.linkLabel",
           "blocks.body",
+          "blocks.backgroundAnimation.size",
+          "blocks.backgroundAnimation.left",
+          "blocks.backgroundAnimation.top",
           "slug"
         ],
         "locales": [

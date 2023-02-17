@@ -2,7 +2,8 @@
   "collectionName": "components_block_context_block_confs",
   "info": {
     "displayName": "BlockConf",
-    "icon": "bacon"
+    "icon": "bacon",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,13 +21,6 @@
         "Center",
         "Right"
       ]
-    },
-    "BackgroundGraphic": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
