@@ -2,15 +2,13 @@
   "collectionName": "components_shared_block_visual_texts",
   "info": {
     "displayName": "Block visual + text",
-    "icon": "theater-masks"
+    "icon": "theater-masks",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "body": {
-      "type": "richtext"
     },
     "link": {
       "type": "string"
@@ -31,13 +29,21 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": ["images"],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "visualWidth": {
       "type": "enumeration",
-      "enum": ["Small", "Half", "Big", "Full"]
+      "enum": [
+        "Small",
+        "Half",
+        "Big",
+        "Full"
+      ]
     },
     "reverseOrder": {
       "type": "boolean",
@@ -50,6 +56,14 @@
       "type": "component",
       "repeatable": false,
       "component": "block-context.block-conf"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "rich",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

@@ -20,7 +20,8 @@
     "dotenv": "^16.0.3",
     "pg": "8.6.0",
     "strapi-plugin-config-sync": "^1.1.0",
-    "strapi-plugin-navigation": "^2.2.2"
+    "strapi-plugin-navigation": "^2.2.2",
+    "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
     "name": "PagoPA S.p.A."
@@ -32,6 +33,8 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "workspaces": ["./src/plugins/strapi-plugin-ckeditor"],
+  "workspaces": [
+    "./src/plugins/strapi-plugin-ckeditor"
+  ],
   "license": "EUPL"
 }
