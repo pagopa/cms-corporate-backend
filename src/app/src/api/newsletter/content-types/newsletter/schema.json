@@ -78,8 +78,8 @@
       },
       "type": "customField",
       "options": {
-        "output": "Markdown",
-        "preset": "rich"
+        "preset": "custom",
+        "output": "HTML"
       },
       "customField": "plugin::ckeditor5.CKEditor"
     }
