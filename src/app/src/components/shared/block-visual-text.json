@@ -60,10 +60,18 @@
     "body": {
       "type": "customField",
       "options": {
-        "preset": "rich",
+        "preset": "custom",
         "output": "HTML"
       },
-      "customField": "plugin::ckeditor.CKEditor"
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "reveal": {
+      "type": "boolean"
+    },
+    "backgroundAnimation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.background-animation"
     }
   }
 }

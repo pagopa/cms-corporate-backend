@@ -48,20 +48,6 @@
           "sortable": true
         }
       },
-      "body": {
-        "edit": {
-          "label": "body",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "body",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "useFeaturedImage": {
         "edit": {
           "label": "useFeaturedImage",
@@ -131,6 +117,34 @@
           "searchable": false,
           "sortable": false
         }
+      },
+      "body": {
+        "edit": {
+          "label": "body",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "body",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundAnimation": {
+        "edit": {
+          "label": "backgroundAnimation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "backgroundAnimation",
+          "searchable": false,
+          "sortable": false
+        }
       }
     },
     "layouts": {
@@ -182,6 +196,12 @@
         [
           {
             "name": "introMenu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundAnimation",
             "size": 12
           }
         ]

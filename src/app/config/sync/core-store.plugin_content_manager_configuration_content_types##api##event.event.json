@@ -220,12 +220,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "title",
-        "eyelet",
-        "featuredImage"
-      ],
       "edit": [
         [
           {
@@ -246,6 +240,10 @@
         [
           {
             "name": "post",
+            "size": 6
+          },
+          {
+            "name": "featuredImage",
             "size": 6
           }
         ],
@@ -275,7 +273,7 @@
             "size": 4
           },
           {
-            "name": "featuredImage",
+            "name": "eventVenue",
             "size": 6
           }
         ],
@@ -283,12 +281,14 @@
           {
             "name": "slug",
             "size": 6
-          },
-          {
-            "name": "eventVenue",
-            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "title",
+        "eyelet",
+        "featuredImage"
       ]
     }
   },

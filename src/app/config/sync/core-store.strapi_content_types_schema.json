@@ -3675,7 +3675,7 @@
             "output": "Markdown",
             "preset": "rich"
           },
-          "customField": "plugin::ckeditor.CKEditor"
+          "customField": "plugin::ckeditor5.CKEditor"
         },
         "createdAt": {
           "type": "datetime"
@@ -3816,7 +3816,7 @@
               "output": "Markdown",
               "preset": "rich"
             },
-            "customField": "plugin::ckeditor.CKEditor"
+            "customField": "plugin::ckeditor5.CKEditor"
           }
         },
         "kind": "collectionType"

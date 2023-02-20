@@ -34,20 +34,6 @@
           "sortable": true
         }
       },
-      "body": {
-        "edit": {
-          "label": "body",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "body",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "link": {
         "edit": {
           "label": "link",
@@ -201,6 +187,48 @@
           "searchable": false,
           "sortable": false
         }
+      },
+      "body": {
+        "edit": {
+          "label": "body",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "body",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "reveal": {
+        "edit": {
+          "label": "reveal",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "reveal",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "backgroundAnimation": {
+        "edit": {
+          "label": "backgroundAnimation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "backgroundAnimation",
+          "searchable": false,
+          "sortable": false
+        }
       }
     },
     "layouts": {
@@ -215,6 +243,10 @@
           {
             "name": "title",
             "size": 6
+          },
+          {
+            "name": "eyelet",
+            "size": 6
           }
         ],
         [
@@ -225,27 +257,23 @@
         ],
         [
           {
-            "name": "link",
-            "size": 6
-          },
+            "name": "reveal",
+            "size": 4
+          }
+        ],
+        [
           {
             "name": "ctaText",
             "size": 6
-          }
-        ],
-        [
+          },
           {
             "name": "ctaLink",
             "size": 6
-          },
-          {
-            "name": "eyelet",
-            "size": 6
           }
         ],
         [
           {
-            "name": "youtubeVideo",
+            "name": "link",
             "size": 6
           },
           {
@@ -255,19 +283,25 @@
         ],
         [
           {
-            "name": "image",
+            "name": "youtubeVideo",
             "size": 6
           },
           {
-            "name": "visualWidth",
+            "name": "image",
             "size": 6
           }
         ],
         [
           {
+            "name": "visualWidth",
+            "size": 6
+          },
+          {
             "name": "reverseOrder",
             "size": 4
-          },
+          }
+        ],
+        [
           {
             "name": "backgroundColor",
             "size": 6
@@ -276,6 +310,12 @@
         [
           {
             "name": "blockConf",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundAnimation",
             "size": 12
           }
         ]

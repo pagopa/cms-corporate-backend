@@ -18,6 +18,11 @@
       "type": "component",
       "repeatable": false,
       "component": "block-context.block-conf"
+    },
+    "backgroundAnimation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block-context.background-animation"
     }
   }
 }
