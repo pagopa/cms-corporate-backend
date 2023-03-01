@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_block_newsletters",
+  "info": {
+    "displayName": "Block Newsletter"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

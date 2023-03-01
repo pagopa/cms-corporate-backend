@@ -65,7 +65,8 @@
         "shared.block-text-video-option",
         "shared.block-university-accordion",
         "shared.block-visual-text",
-        "shared.block-visual"
+        "shared.block-visual",
+        "shared.block-newsletter"
       ]
     },
     "slug": {
@@ -82,6 +83,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page.page"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

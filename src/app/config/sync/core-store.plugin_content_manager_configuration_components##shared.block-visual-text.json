@@ -34,20 +34,6 @@
           "sortable": true
         }
       },
-      "link": {
-        "edit": {
-          "label": "link",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "link",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "ctaText": {
         "edit": {
           "label": "ctaText",
@@ -62,16 +48,16 @@
           "sortable": true
         }
       },
-      "ctaLink": {
+      "link": {
         "edit": {
-          "label": "ctaLink",
+          "label": "link",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "ctaLink",
+          "label": "link",
           "searchable": true,
           "sortable": true
         }
@@ -235,8 +221,8 @@
       "list": [
         "id",
         "title",
-        "link",
-        "ctaText"
+        "ctaText",
+        "link"
       ],
       "edit": [
         [
@@ -263,17 +249,7 @@
         ],
         [
           {
-            "name": "ctaText",
-            "size": 6
-          },
-          {
-            "name": "ctaLink",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "link",
+            "name": "image",
             "size": 6
           },
           {
@@ -283,11 +259,17 @@
         ],
         [
           {
-            "name": "youtubeVideo",
+            "name": "ctaText",
             "size": 6
           },
           {
-            "name": "image",
+            "name": "link",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "youtubeVideo",
             "size": 6
           }
         ],

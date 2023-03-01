@@ -10,13 +10,10 @@
     "title": {
       "type": "string"
     },
-    "link": {
-      "type": "string"
-    },
     "ctaText": {
       "type": "string"
     },
-    "ctaLink": {
+    "link": {
       "type": "string"
     },
     "eyelet": {
