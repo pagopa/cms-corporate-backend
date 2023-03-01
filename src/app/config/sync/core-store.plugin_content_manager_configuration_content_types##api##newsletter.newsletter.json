@@ -91,6 +91,20 @@
           "sortable": true
         }
       },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "body": {
         "edit": {
           "label": "body",
@@ -105,18 +119,18 @@
           "sortable": false
         }
       },
-      "slug": {
+      "seo": {
         "edit": {
-          "label": "slug",
+          "label": "seo",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slug",
-          "searchable": true,
-          "sortable": true
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -192,6 +206,12 @@
           {
             "name": "slug",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
           }
         ]
       ]

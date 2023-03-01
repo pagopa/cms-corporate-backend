@@ -2673,6 +2673,16 @@
           },
           "type": "string"
         },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2844,6 +2854,16 @@
               }
             },
             "type": "string"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -3433,6 +3453,16 @@
           "targetField": "title",
           "required": true
         },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -3614,6 +3644,16 @@
             "type": "uid",
             "targetField": "title",
             "required": true
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -3711,6 +3751,16 @@
             "output": "HTML"
           },
           "customField": "plugin::ckeditor5.CKEditor"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -3852,6 +3902,16 @@
               "output": "HTML"
             },
             "customField": "plugin::ckeditor5.CKEditor"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -3932,7 +3992,8 @@
             "shared.block-text-video-option",
             "shared.block-university-accordion",
             "shared.block-visual-text",
-            "shared.block-visual"
+            "shared.block-visual",
+            "shared.block-newsletter"
           ]
         },
         "slug": {
@@ -3949,6 +4010,16 @@
           "type": "relation",
           "relation": "oneToOne",
           "target": "api::page.page"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -4073,7 +4144,8 @@
               "shared.block-text-video-option",
               "shared.block-university-accordion",
               "shared.block-visual-text",
-              "shared.block-visual"
+              "shared.block-visual",
+              "shared.block-newsletter"
             ]
           },
           "slug": {
@@ -4090,6 +4162,16 @@
             "type": "relation",
             "relation": "oneToOne",
             "target": "api::page.page"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -4182,6 +4264,16 @@
           "type": "uid",
           "targetField": "title",
           "required": true
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -4318,6 +4410,16 @@
             "type": "uid",
             "targetField": "title",
             "required": true
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -4406,6 +4508,16 @@
             }
           },
           "type": "string"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -4538,6 +4650,16 @@
               }
             },
             "type": "string"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -4676,6 +4798,16 @@
             "shared.block-visual-text",
             "shared.block-visual"
           ]
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -4858,6 +4990,16 @@
               "shared.block-visual-text",
               "shared.block-visual"
             ]
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -4941,6 +5083,16 @@
           },
           "type": "uid",
           "targetField": "title"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -5068,6 +5220,16 @@
             },
             "type": "uid",
             "targetField": "title"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
