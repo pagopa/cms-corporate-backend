@@ -309,6 +309,7 @@
       "properties": {
         "fields": [
           "title",
+          "eyelet",
           "featuredImage",
           "isNew",
           "openDate",
@@ -382,6 +383,7 @@
       "properties": {
         "fields": [
           "title",
+          "eyelet",
           "featuredImage",
           "isNew",
           "openDate",
@@ -433,6 +435,7 @@
       "properties": {
         "fields": [
           "title",
+          "eyelet",
           "featuredImage",
           "isNew",
           "openDate",
