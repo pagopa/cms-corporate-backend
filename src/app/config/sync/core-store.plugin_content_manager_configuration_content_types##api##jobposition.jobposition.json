@@ -34,6 +34,20 @@
           "sortable": true
         }
       },
+      "eyelet": {
+        "edit": {
+          "label": "eyelet",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "eyelet",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "featuredImage": {
         "edit": {
           "label": "featuredImage",
@@ -232,18 +246,18 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "title",
-        "featuredImage",
-        "isNew"
-      ],
       "edit": [
         [
           {
             "name": "title",
             "size": 6
           },
+          {
+            "name": "eyelet",
+            "size": 6
+          }
+        ],
+        [
           {
             "name": "featuredImage",
             "size": 6
@@ -307,6 +321,12 @@
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "title",
+        "featuredImage",
+        "isNew"
       ]
     }
   },

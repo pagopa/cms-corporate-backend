@@ -3354,6 +3354,14 @@
           "type": "string",
           "required": true
         },
+        "eyelet": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "string"
+        },
         "featuredImage": {
           "type": "media",
           "multiple": false,
@@ -3545,6 +3553,14 @@
             },
             "type": "string",
             "required": true
+          },
+          "eyelet": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "string"
           },
           "featuredImage": {
             "type": "media",
