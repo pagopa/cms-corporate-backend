@@ -1,0 +1,7 @@
+{
+  "label": "CtaAlias",
+  "pattern": "[locale]/[from]",
+  "code": "ctaaliasurl",
+  "contenttype": "api::ct-alias.ct-alias",
+  "languages": []
+}
