@@ -5,6 +5,76 @@
   "permissions": [
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::ct-alias.ct-alias",
+      "properties": {
+        "fields": [
+          "from",
+          "to",
+          "slug"
+        ],
+        "locales": [
+          "en",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::ct-alias.ct-alias",
+      "properties": {
+        "locales": [
+          "en",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::ct-alias.ct-alias",
+      "properties": {
+        "locales": [
+          "en",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::ct-alias.ct-alias",
+      "properties": {
+        "fields": [
+          "from",
+          "to",
+          "slug"
+        ],
+        "locales": [
+          "en",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::ct-alias.ct-alias",
+      "properties": {
+        "fields": [
+          "from",
+          "to",
+          "slug"
+        ],
+        "locales": [
+          "en",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::event.event",
       "properties": {
         "fields": [
