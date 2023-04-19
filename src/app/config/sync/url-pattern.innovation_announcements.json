@@ -1,7 +1,0 @@
-{
-  "label": "Innovation announcements",
-  "pattern": "/[locale]/opportunita/fondo-innovazione/comunicati/[title]",
-  "code": "innovation_announcements",
-  "contenttype": "api::innovation-announcement.innovation-announcement",
-  "languages": []
-}
