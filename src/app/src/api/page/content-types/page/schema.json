@@ -93,6 +93,17 @@
         }
       },
       "component": "shared.seo"
+    },
+    "url_path": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "minLength": 5,
+      "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
     }
   }
 }

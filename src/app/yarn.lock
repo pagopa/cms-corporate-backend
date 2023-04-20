@@ -2140,11 +2140,6 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@strapi-community/strapi-plugin-url-alias@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@strapi-community/strapi-plugin-url-alias/-/strapi-plugin-url-alias-1.0.0-alpha.6.tgz#762f4c438f558d7f8a5088f62f00adce401652f1"
-  integrity sha512-kivMVIeqhKITq/YWdgUwGv9fmYZDxlOBzz6+todhxCfAaGTifQX61+syJgcSxJv2BngkeMA4tzfRAEMoDOV61g==
-
 "@strapi/admin@4.9.1":
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/@strapi/admin/-/admin-4.9.1.tgz#51bda7169ee47c9475c62ebcce16a1e9c9d39797"
