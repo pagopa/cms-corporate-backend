@@ -1,7 +1,0 @@
-{
-  "label": "Posts",
-  "pattern": "/[locale]/media/news-ed-eventi/[title]",
-  "code": "posts",
-  "contenttype": "api::post.post",
-  "languages": []
-}

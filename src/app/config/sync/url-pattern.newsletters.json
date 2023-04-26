@@ -1,7 +1,0 @@
-{
-  "label": "Newsletters",
-  "pattern": "/[locale]/media/newsletter-outer-space/[title]",
-  "code": "newsletters",
-  "contenttype": "api::newsletter.newsletter",
-  "languages": []
-}

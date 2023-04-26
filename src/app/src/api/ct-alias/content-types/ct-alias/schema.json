@@ -24,7 +24,8 @@
       },
       "type": "string",
       "unique": true,
-      "required": true
+      "required": true,
+      "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
     },
     "to": {
       "pluginOptions": {
@@ -33,8 +34,9 @@
         }
       },
       "type": "string",
-      "unique": true,
-      "required": false
+      "unique": false,
+      "required": true,
+      "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
     },
     "slug": {
       "pluginOptions": {
@@ -43,7 +45,8 @@
         }
       },
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "from"
     }
   }
 }

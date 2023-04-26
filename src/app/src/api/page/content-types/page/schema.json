@@ -29,14 +29,38 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "url_path": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "minLength": 5,
+      "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     },
     "blocks": {
       "pluginOptions": {
@@ -68,21 +92,6 @@
         "shared.block-visual",
         "shared.block-newsletter"
       ]
-    },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "uid",
-      "targetField": "title",
-      "required": true
-    },
-    "parent": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
     },
     "seo": {
       "type": "component",
