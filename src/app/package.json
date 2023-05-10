@@ -7,10 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "cs": "config-sync",
-    "strapi-provider-upload-aws-s3-advanced": "^4.2.1",
-    "strapi-plugin-sso": "^0.1.4"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
@@ -22,7 +19,9 @@
     "dotenv": "^16.0.3",
     "pg": "8.10.0",
     "strapi-plugin-navigation": "^2.2.7",
-    "strapi-plugin-populate-deep": "^2.0.0"
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-provider-upload-aws-s3-advanced": "^4.2.1",
+    "strapi-plugin-sso": "^0.1.6"
   },
   "author": {
     "name": "PagoPA S.p.A."
