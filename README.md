@@ -95,6 +95,14 @@ Set it as the default locale from the advanced panel
 7. create a new navigation from Manage->Create
 8. the displayed id should identify the it locale and id+1 the en locale
 
+## Add Background Graphics Animation
+
+1. Add a component with the BackgroundGraphics sub component (Ex. Block Visual + Text)
+2. find the backgroundAnimation field
+3. click plus
+4. compile the size, left and top fields
+5. size: 100, left: 50, top: 50 to have a circle of 100px in the middle of the component
+
 ### Plugins shipped within this package
 
 - _strapi-plugin-navigation_ to manage navigation menus
