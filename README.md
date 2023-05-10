@@ -40,7 +40,7 @@ $ docker pull postgres
 # Run the Docker container at http://127.0.0.1:<YOUR_HOST_PORT>/
 $ docker run --name pagopa-corporate-cms -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
 
-# start the postgress db
+# start the postgres db
 $ docker start pagopa-corporate-cms
 
 ```
@@ -93,9 +93,9 @@ Set it as the default locale from the advanced panel
 5. click Restart Strapi (restart manually if there is any error)
 6. Go to the [navigation plugin](http://localhost:1337/admin/plugins/navigation) page
 7. create a new navigation from Manage->Create
-8. the displayed id should identify the it locale and id+1 the en locale*
+8. the displayed id should identify the it locale and id+1 the en locale
 
-* You can check the exacts id or slug runnning the following query in the srapi postgres db:
+* You can check the exacts navigation id or slug running the following query in the strapi postgres db:
 ```postgres
 SELECT * FROM navigations;
 ```
@@ -130,7 +130,7 @@ $ \dt
 ```
 
 ## Config Sync
-Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync enviroments.
+Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in config/sync folder, after a dev session. These json files can be committed and used when in prod to programmatically sync environments.
 
 ```
 yarn cs export [optionally type ex user-role]
