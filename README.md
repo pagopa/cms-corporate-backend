@@ -93,7 +93,12 @@ Set it as the default locale from the advanced panel
 5. click Restart Strapi (restart manually if there is any error)
 6. Go to the [navigation plugin](http://localhost:1337/admin/plugins/navigation) page
 7. create a new navigation from Manage->Create
-8. the displayed id should identify the it locale and id+1 the en locale
+8. the displayed id should identify the it locale and id+1 the en locale*
+
+* You can check the exacts id or slug runnning the following query in the srapi postgres db:
+```postgres
+SELECT * FROM navigations;
+```
 
 ## Add Background Graphics Animation
 
@@ -111,6 +116,21 @@ Set it as the default locale from the advanced panel
 ### Something to know
 
 Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync environments.
+
+## Access the postgres db (Docker Example)
+
+```bash
+$ docker exec -it pagopa-corporate-cms bash
+$ psql -U postgres
+```
+
+```postgres
+# list all tables
+$ \dt
+```
+
+## Config Sync
+Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync enviroments.
 
 ```
 yarn cs export [optionally type ex user-role]
