@@ -104,16 +104,22 @@ SELECT * FROM navigations;
 
 1. Add a component with the BackgroundGraphics sub component (Ex. Block Visual + Text)
 2. find the backgroundAnimation field
-3. click plus
+3. click the plus button
 4. compile the size, left and top fields
 5. size: 100, left: 50, top: 50 to have a circle of 100px in the middle of the component
 
-### Plugins shipped within this package
+## Create an Alisa
+
+1. from the [content manager](http://localhost:1337/admin/content-manager):
+2. select the CTAlias collection
+3. create new entry
+4. from is the desired path from which the user will be redirected
+4. to is the path were the user will be redirected
+
+### Something to know
 
 - _strapi-plugin-navigation_ to manage navigation menus
 - _strapi-plugin-config-sync_ to manage export/import of config between environments (tipically export when in dev, import when in prod)
-
-### Something to know
 
 Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync environments.
 
@@ -138,3 +144,9 @@ yarn cs import
 ```
 
 For more info visit the plugin's [main page on github](https://github.com/boazpoolman/strapi-plugin-config-sync)
+
+### Plugins shipped within this package
+
+- _strapi-plugin-navigation_ to manage navigation menus
+- _strapi-plugin-config-sync_ to manage export/import of config between environments (typically export when in dev, import when in prod)
+
