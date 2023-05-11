@@ -42,9 +42,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -66,7 +64,12 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "custom",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     },
     "blocks": {
       "type": "component",

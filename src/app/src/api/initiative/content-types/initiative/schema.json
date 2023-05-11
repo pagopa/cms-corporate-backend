@@ -53,7 +53,12 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "custom",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     },
     "slug": {
       "pluginOptions": {
