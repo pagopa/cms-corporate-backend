@@ -53,7 +53,7 @@
         }
       },
       "type": "string",
-      "unique": true,
+      "unique": false,
       "minLength": 5,
       "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
     },
