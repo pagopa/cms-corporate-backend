@@ -2,25 +2,27 @@
   "collectionName": "components_block_context_accordion_items",
   "info": {
     "displayName": "AccordionItem",
-    "icon": "stream"
+    "icon": "stream",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "heading": {
-      "type": "string"
+      "type": "text"
     },
     "content": {
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "custom",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     },
     "attachments": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
     }
   }
 }
