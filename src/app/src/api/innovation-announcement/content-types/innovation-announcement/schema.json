@@ -42,7 +42,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -71,16 +73,6 @@
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
-    "blocks": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "block-context.link-attachment"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -90,6 +82,16 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.block-list-attachments"
     }
   }
 }
