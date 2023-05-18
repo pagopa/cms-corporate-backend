@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_block_innovation_announcements",
+  "info": {
+    "displayName": "Block Innovation Announcements"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
