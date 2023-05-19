@@ -29,7 +29,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -103,15 +105,15 @@
         }
       },
       "component": "shared.seo"
-    }
-  },
-  "bannerNewsletter": {
-    "pluginOptions": {
-      "i18n": {
-        "localized": false
-      }
     },
-    "type": "boolean",
-    "default": false
+    "bannerNewsletter": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false
+    }
   }
 }
