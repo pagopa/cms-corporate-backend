@@ -2,22 +2,23 @@
   "collectionName": "components_block_context_link_attachments",
   "info": {
     "displayName": "LinkAttachment",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "link": {
+    "label": {
       "type": "string"
     },
+    "link": {
+      "type": "string",
+      "description": "Absolute or relative link to a resource"
+    },
     "attachment": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
     }
   }
 }
