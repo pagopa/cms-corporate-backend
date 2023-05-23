@@ -16,11 +16,11 @@ and then `yarn build` (useful command to build the React Admin FE)
 ### Plugins shipped within this package
 
 - _strapi-plugin-navigation_ to manage navigation menus
-- _strapi-plugin-config-sync_ to manage export/import of config between enviroments (tipically export when in dev, import when in prod)
+- _strapi-plugin-config-sync_ to manage export/import of config between environments (tipically export when in dev, import when in prod)
 
 ### Something to know
 
-Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync enviroments.
+Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in confin/sync folder, after a dev session. Theese json files can be committed and used when in prod to programmatically sync environments.
 
 ```
 yarn cs export [optionally type ex user-role]
