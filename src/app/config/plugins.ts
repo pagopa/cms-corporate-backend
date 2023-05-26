@@ -37,7 +37,7 @@ export default ({ env }) => ({
               ghWorflowFile: "deploy-live-aws.yml",
               id: "dev",
               name: "Ambiente di Sviluppo",
-              rolesAllowed: ["hr-li35kau2", "strapi-super-admin", "strapi-editor"],
+              rolesAllowed: ["hr-li35kau2", "hr-li49zzdz", "strapi-super-admin", "strapi-editor"],
               userAgent: "strapi",
             },
             {
@@ -50,7 +50,7 @@ export default ({ env }) => ({
               ghWorflowFile: "deploy-live-aws.yml",
               id: "prod",
               name: "Ambiente di Produzione",
-              rolesAllowed: ["hr-li35kau2", "strapi-super-admin", "strapi-editor"],
+              rolesAllowed: ["hr-li35kau2", "hr-li49zzdz", "strapi-super-admin", "strapi-editor"],
               userAgent: "strapi",
             },
           ]
