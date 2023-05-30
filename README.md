@@ -138,15 +138,25 @@ $ \dt
 ### Component Guide for the Gatsby Template
 
 ## BlockHeroSlider
+
 Only the first `heroSliderItem` fields are rendered, you can add other item to the list filling only the `image` field to be displayed in the slider
 
 ## Text Components
+
 Use the blue marker to add a blue highlight on the text.
+
 The indent editor widget can be used to set the text position.
 
-## BlockVisual + Text
-
 The reveal field can be toggled on to enable the scroll reveal effect animation.
+
+## Visual + Text
+
+# visual width
+
+half: is used to display image and text in a row
+full: displays the title and image in a cloumn and the text will be aligned under the image and to the right
+big: match the intro component text width setting visual width to big and no image
+
 
 ### Config Sync
 Using _strapi-plugin-config-sync_ we can export permission settings and other stuffs storing json files in config/sync folder, after a dev session. These json files can be committed and used when in prod to programmatically sync environments.
