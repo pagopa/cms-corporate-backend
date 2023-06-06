@@ -77,6 +77,13 @@ globalThis.CKEditorConfig = {
           CKEditor5.highlight.Highlight,
           CKEditor5.indent.Indent,
           CKEditor5.indent.IndentBlock,
+          CKEditor5.image.Image,
+          CKEditor5.image.ImageCaption,
+          CKEditor5.image.ImageStyle,
+          CKEditor5.image.ImageToolbar,
+          CKEditor5.image.ImageUpload,
+          CKEditor5.strapiPlugins.StrapiMediaLib,
+          CKEditor5.strapiPlugins.StrapiUploadAdapter,
         ],
 
         /* By default, for plugin's UI will use
@@ -106,6 +113,7 @@ globalThis.CKEditorConfig = {
           "italic",
           "bold",
           "link",
+          "strapiMediaLib",
           "bulletedList",
           "numberedList",
           "|",
@@ -117,6 +125,16 @@ globalThis.CKEditorConfig = {
           "undo",
           "redo",
         ],
+        image: {
+          toolbar: [
+            'imageStyle:inline',
+            'imageStyle:block',
+            'imageStyle:side',
+            '|',
+            'toggleImageCaption',
+            'imageTextAlternative'
+          ]
+        },
         heading: {
           options: [
             {
