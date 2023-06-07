@@ -23,6 +23,16 @@ const HomePage = () => {
       return [];
     }
   };
+  function showPanel(confButton: any) {
+    if (process.env.NODE_ENV === "development") {
+      return true;
+    } else if (!("showOnlyAtDomain" in confButton)) {
+      return true;
+    } else if ("showOnlyAtDomain" in confButton) {
+      return window.location.hostname === confButton.showOnlyAtDomain;
+    }
+    return false;
+  }
 
   useEffect(() => {
     getConfs();
@@ -35,7 +45,11 @@ const HomePage = () => {
         <Stack spacing={4} vertical padding={0}>
           {confButtons &&
             confButtons.map((confButton, index) => {
-              return <ConfPanel {...confButton} key={index}></ConfPanel>;
+              return (
+                showPanel(confButton) && (
+                  <ConfPanel {...confButton} key={index}></ConfPanel>
+                )
+              );
             })}
         </Stack>
       </ContentLayout>
