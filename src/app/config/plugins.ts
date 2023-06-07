@@ -38,6 +38,7 @@ export default ({ env }) => ({
               id: "dev",
               name: "Ambiente di Sviluppo",
               rolesAllowed: ["hr-li35kau2", "hr-li49zzdz", "strapi-super-admin", "strapi-editor"],
+              showOnlyAtDomain: "cms.dev.pagopa.it",
               userAgent: "strapi",
             },
             {
@@ -51,6 +52,7 @@ export default ({ env }) => ({
               id: "prod",
               name: "Ambiente di Produzione",
               rolesAllowed: ["hr-li35kau2", "hr-li49zzdz", "strapi-super-admin", "strapi-editor"],
+              showOnlyAtDomain: "cms.pagopa.it",
               userAgent: "strapi",
             },
           ]
