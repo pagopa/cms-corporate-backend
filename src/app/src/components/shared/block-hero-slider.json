@@ -10,6 +10,10 @@
       "type": "component",
       "repeatable": true,
       "component": "block-context.content-items"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }

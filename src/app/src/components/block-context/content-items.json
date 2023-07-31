@@ -25,9 +25,14 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "linkLabel": {
+      "type": "string"
+    },
+    "youtubeVideo": {
       "type": "string"
     }
   }

@@ -15,6 +15,14 @@
     },
     "linkLabel": {
       "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "dark"
     }
   }
 }
