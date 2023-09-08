@@ -12,10 +12,10 @@
   "devDependencies": {},
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.3",
-    "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-i18n": "4.10.8",
     "@strapi/plugin-seo": "^1.8.0",
-    "@strapi/plugin-users-permissions": "4.9.1",
-    "@strapi/strapi": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.10.8",
+    "@strapi/strapi": "4.10.8",
     "dotenv": "^16.0.3",
     "pg": "8.10.0",
     "strapi-plugin-navigation": "^2.2.7",
