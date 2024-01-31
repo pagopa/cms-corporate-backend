@@ -44,7 +44,7 @@ export default ({ env }) => ({
             {
               eventType: "",
               ghOrg: "pagopa",
-              ghRef: "strapi-refactoring",
+              ghRef: "main",
               ghBodyInputs: {"environment": "prod", "logLevel": "info"},
               ghRepo: "corporate-site-fe",
               ghToken: env("GITHUB_TOKEN"),
