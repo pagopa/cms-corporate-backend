@@ -29,9 +29,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -67,9 +65,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -93,6 +89,17 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "url_path": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": false,
+      "minLength": 5,
+      "regex": "^\\/(?!.*\\/\\/)([a-zA-Z-\\/]+)$"
     },
     "blocks": {
       "pluginOptions": {
