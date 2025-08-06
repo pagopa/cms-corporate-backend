@@ -14,7 +14,7 @@
     "@strapi/plugin-i18n": "4.10.8",
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.10.8",
-    "@strapi/strapi": "4.10.8",
+    "@strapi/strapi": "4.13.1",
     "dotenv": "^16.0.3",
     "pg": "8.10.0",
     "strapi-plugin-import-export-entries": "^1.23.1",
